@@ -257,6 +257,9 @@ img {
     color: #64748b;
     margin-bottom: 32px;
 }
+.webflow{
+    border-radius: 20px;
+}
 
 /* start a free frail section ends */
 .Contact-form {
