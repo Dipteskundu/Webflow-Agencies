@@ -157,3 +157,83 @@ img {
 }
 
 /* productive_user ends */
+
+.review {
+    margin: 80px 40px;
+    text-align: left;
+}
+
+.review h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.rateing-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.comment {
+    text-align: left;
+    padding: 32px;
+    background-color: white;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.comment img.star {
+    width: 20px;
+    height: 20px;
+}
+
+.comment h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 12px;
+}
+
+.comment p {
+    color: #64748b;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.profile-details {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.user-profile h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0 0 2px 0;
+}
+
+.user-profile p {
+    color: #64748b;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* Review section ends */
