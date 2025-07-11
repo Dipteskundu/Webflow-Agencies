@@ -114,3 +114,46 @@ img {
     height: 300px;
     object-fit: cover;
 }
+
+/* action section end */
+
+.user-box {
+    margin: 80px 40px;
+    background-color: #e6e6fa;
+    border-radius: 16px;
+    padding: 60px 40px;
+}
+
+.user-box h4 {
+    font-size: 1.75rem;
+    text-align: center;
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.numbers-of-users {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.numbers-of-users>div {
+    text-align: center;
+    flex: 1;
+}
+
+.numbers-of-users h6 {
+    font-size: 3rem;
+    color: #4E47FF;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.numbers-of-users p {
+    font-size: 1rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+/* productive_user ends */
