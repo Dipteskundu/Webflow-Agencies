@@ -259,3 +259,75 @@ img {
 }
 
 /* start a free frail section ends */
+.Contact-form {
+    display: flex;
+    padding: 80px 60px;
+    gap: 80px;
+    align-items: center;
+    background: white;
+    margin: 60px 40px;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.input-field:first-child {
+    flex: 1;
+    text-align: left;
+}
+
+.input-field:last-child {
+    flex: 1;
+    text-align: left;
+}
+
+.input-field h3 {
+    font-size: 3rem;
+    /* Increased to 3rem for larger text */
+    margin-bottom: 10px;
+    color: #2d3748;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.input-field p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.input-field input,
+.input-field textarea {
+    padding: 12px 30px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+
+
+.section-title {
+    text-align: left;
+}
+
+.input-field p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #374151;
+}
+
+.size {
+    width: 55%;
+}
+
+/* newsletter ends*/
+
