@@ -77,3 +77,40 @@ img {
 
 /* header section closed */
 
+.try-once {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    padding: 80px 60px;
+    margin: 60px 40px;
+    align-items: center;
+    gap: 60px;
+}
+
+.Preview {
+    text-align: left;
+    flex: 1;
+}
+
+.Preview h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 16px;
+}
+
+.Preview p {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+#preview-pic {
+    border-radius: 16px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
